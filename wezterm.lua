@@ -13,7 +13,7 @@ config.window_background_image_hsb = {
 	saturation = 0.5,
 }
 
-
+config.font_size = 18.0
 
 return config
 
