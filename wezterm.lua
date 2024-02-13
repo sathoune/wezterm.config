@@ -22,5 +22,9 @@ config.font_size = 20.0
 config.font_dirs = { "../fonts" }
 config.font = wezterm.font("Comic Code Ligatures")
 
+-- Defaut Window Size
+config.initial_rows = 100
+config.initial_cols = 200
+
 return config
 
