@@ -5,7 +5,11 @@ local config = wezterm.config_builder()
 config.color_scheme = "Batman"
 config.hide_tab_bar_if_only_one_tab = true
 
-config.window_background_image = wezterm.config_dir .. "/../wallpapers/1.jpg"
+-- Toggle wallpaper
+local wallpaper = false
+if wallpaper then
+	config.window_background_image = wezterm.config_dir .. "/../wallpapers/1.jpg"
+end
 config.window_background_opacity = 1
 config.window_background_image_hsb = {
 	brightness = 0.1,
