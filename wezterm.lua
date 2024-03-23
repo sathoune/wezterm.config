@@ -1,8 +1,8 @@
 -- Wezterm API
-local wezterm = require "wezterm"
+local wezterm = require("wezterm")
 
 local config = wezterm.config_builder()
-config.color_scheme = "Batman"
+config.color_scheme = "rose-pine"
 config.hide_tab_bar_if_only_one_tab = true
 
 -- Toggle wallpaper
@@ -27,4 +27,3 @@ config.initial_rows = 100
 config.initial_cols = 200
 
 return config
-
