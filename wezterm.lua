@@ -18,7 +18,7 @@ config.window_background_image_hsb = {
 }
 
 -- Font
-config.font_size = 20.0
+config.font_size = 24.0
 config.font_dirs = { "../fonts" }
 config.font = wezterm.font("Comic Code Ligatures")
 
