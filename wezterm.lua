@@ -26,4 +26,9 @@ config.font = wezterm.font("Comic Code Ligatures")
 config.initial_rows = 100
 config.initial_cols = 200
 
+-- Colour Scheme overrides
+config.colors = {
+	-- background = "#032401",
+}
+
 return config
